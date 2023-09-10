@@ -3,8 +3,9 @@ import React from "react";
 import fl from './FriendListItem.module.css';
 
 export const FriendListItem = props => {
+    
     return(
-        <li className={fl.item} key={props.id}>
+        <li className={fl.item} >
 
             {
                 

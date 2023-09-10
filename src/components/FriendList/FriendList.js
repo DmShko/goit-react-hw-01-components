@@ -10,7 +10,7 @@ export const FriendList = props => {
             {
                 props.friends.map(element => (
 
-                    <FriendListItem avatar ={element.avatar} id = {element.id} name={element.name} isOnline={element.isOnline}/>
+                    <FriendListItem avatar={element.avatar} key={element.id} name={element.name} isOnline={element.isOnline}/>
 
                 ))
             }
