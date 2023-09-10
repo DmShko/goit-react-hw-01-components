@@ -1,0 +1,42 @@
+.main {
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+}
+
+.statusTrue {
+    
+    
+    background-color: green;
+
+}
+
+.statusFalse {
+
+   
+   
+    background-color: red;
+
+}
+
+.item {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+    width: 200px;
+    height: 200px;
+    border: 3px solid grey;
+    border-radius: 6px;
+    padding: 5px;
+
+    box-shadow: 10px 5px 5px grey;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 15px;
+}
