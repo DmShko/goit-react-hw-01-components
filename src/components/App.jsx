@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
 
-import user from './database/user.json';
-import data from './database/data.json'
-import friends from './database/friends.json'
-import items from './database/transactions.json'
+import user from 'database/user.json';
+import data from 'database/data.json'
+import friends from 'database/friends.json'
+import items from 'database/transactions.json'
 
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
